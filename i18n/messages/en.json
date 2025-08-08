@@ -5,13 +5,10 @@
     "countdown": "Closing in {countdown} seconds"
   },
   "Header": {
-    "blogs": "Blogs",
-    "about": "About",
-    "sourceCode": "Source Code",
-    "proVersion": "Pro Version"
+    "about": "About"
   },
   "Footer": {
-    "Copyright": "Copyright © {year} Next Forge. All rights reserved."
+    "Copyright": "Copyright © {year} TikTok Calculator. All rights reserved."
   },
   "Home": {
     "title": "TikTok Calculator",
@@ -47,10 +44,7 @@
       "note": "Note: Earnings are estimates based on industry standards and may vary."
     }
   },
-  "Blogs": {
-    "title": "Blog Posts",
-    "description": "A list of blog posts"
-  },
+
   "About": {
     "title": "About",
     "description": "About the site"

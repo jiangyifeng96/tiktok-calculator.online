@@ -5,13 +5,10 @@
     "countdown": "将在 {countdown} 秒后关闭"
   },
   "Header": {
-    "blogs": "博客",
-    "about": "关于",
-    "sourceCode": "源码",
-    "proVersion": "专业版"
+    "about": "关于"
   },
   "Footer": {
-    "Copyright": "版权所有 © {year} Next Forge。保留所有权利。"
+    "Copyright": "版权所有 © {year} TikTok计算器。保留所有权利。"
   },
   "Home": {
     "title": "TikTok计算器",
@@ -47,10 +44,7 @@
       "note": "注意：收入为基于行业标准的估算值，实际可能有所不同。"
     }
   },
-  "Blogs": {
-    "title": "博客列表",
-    "description": "博客列表"
-  },
+
   "About": {
     "title": "关于",
     "description": "关于网站"

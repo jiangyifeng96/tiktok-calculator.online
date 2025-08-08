@@ -5,23 +5,44 @@
     "countdown": "閉じるまで {countdown} 秒"
   },
   "Header": {
-    "blogs": "ブログ",
-    "about": "サイトについて",
-    "sourceCode": "ソースコード",
-    "proVersion": "Pro Version"
+    "about": "サイトについて"
   },
   "Footer": {
-    "Copyright": "Copyright © {year} Next Forge. All rights reserved."
+    "Copyright": "Copyright © {year} TikTokカルキュレーター. All rights reserved."
   },
   "Home": {
-    "title": "Next Forge",
-    "tagLine": "Next.js 多言語スターターテンプレート",
-    "description": "多言語対応機能を搭載したNext.js 15スターターテンプレート。SEO最適化済みで、グローバル展開可能なウェブアプリを効率的に構築できます。",
-    "whoIsUsing": "誰がこのスターターを使用していますか"
+    "title": "TikTokカルキュレーター",
+    "tagLine": "無料TikTok収益カルキュレーター＆分析ツール",
+    "description": "無料のTikTok収益カルキュレーターで、任意TikTokアカウントの収益ポテンシャル、フォロワーエンゲージメント率、推定収益を即座に分析します。",
+    "whoIsUsing": "TikTokカルキュレーターを使用している人"
   },
-  "Blogs": {
-    "title": "ブログ一覧",
-    "description": "ブログ投稿の一覧"
+  "Calculator": {
+    "title": "TikTok収益カルキュレーター",
+    "subtitle": "任意のTikTokアカウントの推定収益を計算",
+    "placeholder": "TikTokユーザー名を入力（例：mrbeast）",
+    "calculate": "収益を計算",
+    "calculating": "計算中...",
+    "results": "分析結果",
+    "noData": "このユーザー名のデータが見つかりません",
+    "error": "データ取得中にエラーが発生しました",
+    "tryAgain": "再試行",
+    "metrics": {
+      "username": "ユーザー名",
+      "fullname": "フルネーム",
+      "followers": "フォロワー数",
+      "hearts": "総いいね数",
+      "videos": "動画総数",
+      "earnings": "推定総収益",
+      "earningsPerVideo": "動画1本あたりの推定収益",
+      "engagementRate": "エンゲージメント率"
+    },
+    "tips": {
+      "title": "TikTokカルキュレーターの使用方法",
+      "step1": "@記号なしでTikTokユーザー名を入力",
+      "step2": "「収益を計算」をクリックしてアカウントを分析",
+      "step3": "推定収益やエンゲージメント率を含む詳細指標を確認",
+      "note": "注意：収益は業界標準に基づく推定値であり、実際とは異なる場合があります。"
+    }
   },
   "About": {
     "title": "サイトについて",

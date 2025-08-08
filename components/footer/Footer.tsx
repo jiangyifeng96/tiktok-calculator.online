@@ -15,7 +15,7 @@ export default function Footer() {
             <div className="w-full flex flex-col sm:flex-row lg:flex-col gap-4 col-span-full md:col-span-2">
               <div className="space-y-4 flex-1">
                 <div className="items-center space-x-2 flex">
-                  <img src="/logo.svg" alt="Next Forge" className="w-8 h-8" />
+                  <img src="/logo.svg" alt="TikTok Calculator" className="w-8 h-8" />
 
                   <span className="text-white text-2xl font-bold">
                     {t("title")}
@@ -143,48 +143,15 @@ const footerLinks: FooterLink[] = [
     ],
   },
   {
-    title: "Open Source",
+    title: "Tools",
     links: [
       {
-        href: "https://github.com/weijunext/nextjs-15-starter",
-        label: "Next Forge",
-        rel: "noopener noreferrer nofollow",
-        target: "_blank",
+        href: "/",
+        label: "TikTok Calculator",
       },
       {
-        href: "https://github.com/weijunext/landing-page-boilerplate",
-        label: "Landing Page Boilerplate",
-        rel: "noopener noreferrer nofollow",
-        target: "_blank",
-      },
-      {
-        href: "https://github.com/weijunext/weekly-boilerplate",
-        label: "Blog Boilerplate",
-        rel: "noopener noreferrer nofollow",
-        target: "_blank",
-      },
-    ],
-  },
-  {
-    title: "Other Products",
-    links: [
-      {
-        href: "https://nexty.dev/",
-        label: "Nexty - SaaS Template",
-        rel: "noopener noreferrer",
-        target: "_blank",
-      },
-      {
-        href: "https://ntab.dev/",
-        label: "nTab",
-        rel: "noopener noreferrer",
-        target: "_blank",
-      },
-      {
-        href: "https://ogimage.click/",
-        label: "OG Image Generator",
-        rel: "noopener noreferrer",
-        target: "_blank",
+        href: "/about",
+        label: "About",
       },
     ],
   },
