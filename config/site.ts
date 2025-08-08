@@ -1,6 +1,6 @@
 import { SiteConfig } from "@/types/siteConfig";
 
-export const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://nextforge.dev";
+export const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://tiktok-calculator.online";
 
 export const SOURCE_CODE_URL = "https://github.com/weijunext/nextjs-15-starter";
 export const PRO_VERSION = "https://nexty.dev";
@@ -10,10 +10,10 @@ const EMAIL_URL = 'mailto:weijunext@gmail.com'
 const GITHUB_URL = 'https://github.com/weijunext'
 
 export const siteConfig: SiteConfig = {
-  name: "Next Forge",
-  tagLine: 'Multilingual Next.js 15 Starter',
+  name: "TikTok Calculator",
+  tagLine: 'Free TikTok Money Calculator & Analytics Tool',
   description:
-    "A multilingual Next.js 15 starter with built-in i18n support. Launch your global-ready web application with a clean, efficient, and SEO-friendly foundation.",
+    "Calculate TikTok earnings potential with our free TikTok money calculator. Analyze followers, engagement rate, and estimated revenue for any TikTok account instantly.",
   url: BASE_URL,
   authors: [
     {

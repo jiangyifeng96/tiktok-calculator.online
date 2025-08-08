@@ -14,10 +14,38 @@
     "Copyright": "版权所有 © {year} Next Forge。保留所有权利。"
   },
   "Home": {
-    "title": "Next Forge",
-    "tagLine": "Next.js 多语言启动模板",
-    "description": "内置多语言支持的 Next.js 15 启动模板，助您快速构建面向全球的出海网站。简洁高效，开箱即用，完全优化的SEO基础架构。",
-    "whoIsUsing": "谁在使用此模板"
+    "title": "TikTok计算器",
+    "tagLine": "免费TikTok收入计算器和分析工具",
+    "description": "使用我们的免费TikTok收入计算器，立即分析任何TikTok账号的收入潜力、粉丝互动率和预估收益。",
+    "whoIsUsing": "谁在使用TikTok计算器"
+  },
+  "Calculator": {
+    "title": "TikTok收入计算器",
+    "subtitle": "计算任何TikTok账号的预估收入",
+    "placeholder": "输入TikTok用户名（例如：mrbeast）",
+    "calculate": "计算收入",
+    "calculating": "计算中...",
+    "results": "分析结果",
+    "noData": "未找到该用户名的数据",
+    "error": "获取数据时发生错误",
+    "tryAgain": "重试",
+    "metrics": {
+      "username": "用户名",
+      "fullname": "全名",
+      "followers": "粉丝数",
+      "hearts": "总点赞数",
+      "videos": "视频总数",
+      "earnings": "预估总收入",
+      "earningsPerVideo": "单个视频预估收入",
+      "engagementRate": "互动率"
+    },
+    "tips": {
+      "title": "如何使用TikTok计算器",
+      "step1": "输入任何TikTok用户名，无需@符号",
+      "step2": "点击「计算收入」来分析该账号",
+      "step3": "查看详细指标，包括预估收入和互动率",
+      "note": "注意：收入为基于行业标准的估算值，实际可能有所不同。"
+    }
   },
   "Blogs": {
     "title": "博客列表",

@@ -14,10 +14,38 @@
     "Copyright": "Copyright © {year} Next Forge. All rights reserved."
   },
   "Home": {
-    "title": "Next Forge",
-    "tagLine": "Multilingual Next.js 15 Starter",
-    "description": "A multilingual Next.js 15 starter with built-in i18n support. Launch your global-ready web application with a clean, efficient, and SEO-friendly foundation.",
-    "whoIsUsing": "Who is Using This Starter"
+    "title": "TikTok Calculator",
+    "tagLine": "Free TikTok Money Calculator & Analytics Tool",
+    "description": "Calculate TikTok earnings potential with our free TikTok money calculator. Analyze followers, engagement rate, and estimated revenue for any TikTok account instantly.",
+    "whoIsUsing": "Who is Using TikTok Calculator"
+  },
+  "Calculator": {
+    "title": "TikTok Money Calculator",
+    "subtitle": "Calculate estimated earnings for any TikTok account",
+    "placeholder": "Enter TikTok username (e.g., mrbeast)",
+    "calculate": "Calculate Earnings",
+    "calculating": "Calculating...",
+    "results": "Analysis Results",
+    "noData": "No data found for this username",
+    "error": "An error occurred while fetching data",
+    "tryAgain": "Try Again",
+    "metrics": {
+      "username": "Username",
+      "fullname": "Full Name",
+      "followers": "Followers",
+      "hearts": "Total Hearts",
+      "videos": "Total Videos",
+      "earnings": "Estimated Total Earnings",
+      "earningsPerVideo": "Estimated Earnings per Video",
+      "engagementRate": "Engagement Rate"
+    },
+    "tips": {
+      "title": "How to Use TikTok Calculator",
+      "step1": "Enter any TikTok username without the @ symbol",
+      "step2": "Click 'Calculate Earnings' to analyze the account",
+      "step3": "View detailed metrics including estimated earnings and engagement rate",
+      "note": "Note: Earnings are estimates based on industry standards and may vary."
+    }
   },
   "Blogs": {
     "title": "Blog Posts",
