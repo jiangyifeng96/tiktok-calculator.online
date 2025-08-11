@@ -13,14 +13,14 @@
   "Home": {
     "title": "TikTokカルキュレーター",
     "tagLine": "無料TikTok収益カルキュレーター＆分析ツール",
-    "description": "無料のTikTok収益カルキュレーターで、任意TikTokアカウントの収益ポテンシャル、フォロワーエンゲージメント率、推定収益を即座に分析します。",
+    "description": "無料TikTokカルキュレーター - TikTok収益、収入、マネタイゼーションポテンシャルを計算。私たちのTikTok収益カルキュレーターは、TikTokクリエイター収益、エンゲージメント率、任意のTikTokアカウントの推定収入を分析します。TikTok収入カルキュレーターでTikTok収益機会を即座に発見しましょう。",
     "whoIsUsing": "TikTokカルキュレーターを使用している人"
   },
   "Calculator": {
     "title": "TikTok収益カルキュレーター",
-    "subtitle": "任意のTikTokアカウントの推定収益を計算",
-    "placeholder": "TikTokユーザー名を入力（例：mrbeast）",
-    "calculate": "収益を計算",
+    "subtitle": "任意のTikTokアカウントの推定収益と収入を計算",
+    "placeholder": "TikTokユーザー名を入力（例：mrbeast）- TikTokカルキュレーター",
+    "calculate": "TikTok収益を計算",
     "calculating": "計算中...",
     "results": "分析結果",
     "noData": "このユーザー名のデータが見つかりません",

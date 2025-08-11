@@ -60,10 +60,33 @@ export async function constructMetadata({
     return acc
   }, {} as Record<string, string>)
 
+  // Build SEO keywords based on page type
+  const keywords = page === 'Home' ? [
+    'tiktok',
+    'tiktok calculator',
+    'tiktok money calculator',
+    'tiktok earning calculator',
+    'tiktok revenue calculator',
+    'tiktok earnings estimator',
+    'tiktok income calculator',
+    'tiktok analytics tool',
+    'calculate tiktok earnings',
+    'tiktok monetization calculator',
+    'tiktok creator earnings',
+    'tiktok influencer calculator',
+    'social media calculator',
+    'content creator earnings',
+    'digital marketing tool'
+  ] : [
+    'tiktok',
+    'tiktok calculator',
+    siteConfig.name.toLowerCase()
+  ]
+
   return {
     title: finalTitle,
     description: pageDescription,
-    keywords: [],
+    keywords: keywords,
     authors: siteConfig.authors,
     creator: siteConfig.creator,
     metadataBase: new URL(siteConfig.url),

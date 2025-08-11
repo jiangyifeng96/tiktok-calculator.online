@@ -13,7 +13,7 @@ export const siteConfig: SiteConfig = {
   name: "TikTok Calculator",
   tagLine: 'Free TikTok Money Calculator & Analytics Tool',
   description:
-    "Calculate TikTok earnings potential with our free TikTok money calculator. Analyze followers, engagement rate, and estimated revenue for any TikTok account instantly.",
+    "Free TikTok Calculator - Calculate TikTok earnings, revenue, and monetization potential. Our TikTok money calculator analyzes TikTok creator earnings, engagement rates, and estimated income for any TikTok account. Use our TikTok earning calculator to discover TikTok revenue opportunities instantly.",
   url: BASE_URL,
   authors: [
     {

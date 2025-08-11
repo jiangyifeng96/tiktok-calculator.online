@@ -13,14 +13,14 @@
   "Home": {
     "title": "TikTok Calculator",
     "tagLine": "Free TikTok Money Calculator & Analytics Tool",
-    "description": "Calculate TikTok earnings potential with our free TikTok money calculator. Analyze followers, engagement rate, and estimated revenue for any TikTok account instantly.",
+    "description": "Free TikTok Calculator - Calculate TikTok earnings, revenue, and monetization potential. Our TikTok money calculator analyzes TikTok creator earnings, engagement rates, and estimated income for any TikTok account. Use our TikTok earning calculator to discover TikTok revenue opportunities instantly.",
     "whoIsUsing": "Who is Using TikTok Calculator"
   },
   "Calculator": {
     "title": "TikTok Money Calculator",
-    "subtitle": "Calculate estimated earnings for any TikTok account",
-    "placeholder": "Enter TikTok username (e.g., mrbeast)",
-    "calculate": "Calculate Earnings",
+    "subtitle": "Calculate estimated TikTok earnings and revenue for any TikTok account",
+    "placeholder": "Enter TikTok username (e.g., mrbeast) - TikTok Calculator",
+    "calculate": "Calculate TikTok Earnings",
     "calculating": "Calculating...",
     "results": "Analysis Results",
     "noData": "No data found for this username",
@@ -52,16 +52,16 @@
   "SEO": {
     "features": {
       "title": "TikTok Money Calculator Features",
-      "description": "TikTok Money Calculator is an online tool for estimating the potential earnings of any public TikTok account.",
-      "developer": "Developed by TikCalculator, it supports multiple devices (Android, Windows, Linux, iOS) without downloading any software or plugins.",
-      "usage": "Simply enter a TikTok username and the system automatically calculates and displays the estimated earnings for that account."
+      "description": "TikTok Money Calculator is a free online TikTok earning calculator for estimating the potential earnings and revenue of any public TikTok account.",
+      "developer": "Developed by TikTok Calculator experts, our TikTok revenue calculator supports multiple devices (Android, Windows, Linux, iOS) without downloading any software or plugins.",
+      "usage": "Simply enter a TikTok username and our TikTok earning calculator automatically calculates and displays the estimated TikTok earnings for that account."
     },
     "steps": {
-      "title": "How to Use TikTok Calculator",
+      "title": "How to Use TikTok Money Calculator",
       "step1": "Open TikTok or TikTok app and copy the target user's TikTok username.",
-      "step2": "Open the TikTok Calculator website in your browser.",
-      "step3": "Paste the TikTok username into the input field and click 'Calculate Earnings'.",
-      "step4": "The system will display the estimated earnings per post for that user."
+      "step2": "Open the TikTok Money Calculator website in your browser.",
+      "step3": "Paste the TikTok username into the TikTok Calculator input field and click 'Calculate TikTok Earnings'.",
+      "step4": "Our TikTok earning calculator will display the estimated TikTok earnings and revenue per post for that user."
     },
     "advantages": {
       "title": "Why Choose TikTok Calculator",
@@ -148,8 +148,8 @@
     "faq": {
       "title": "Frequently Asked Questions",
       "howToEstimate": {
-        "question": "How to estimate TikTok income?",
-        "answer": "Enter a TikTok username and the system automatically calculates."
+        "question": "How to estimate TikTok income with TikTok Calculator?",
+        "answer": "Enter a TikTok username in our TikTok Money Calculator and the TikTok earning calculator system automatically calculates TikTok earnings and revenue."
       },
       "isFree": {
         "question": "Is it free to use?",

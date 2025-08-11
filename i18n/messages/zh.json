@@ -13,14 +13,14 @@
   "Home": {
     "title": "TikTok计算器",
     "tagLine": "免费TikTok收入计算器和分析工具",
-    "description": "使用我们的免费TikTok收入计算器，立即分析任何TikTok账号的收入潜力、粉丝互动率和预估收益。",
+    "description": "免费TikTok计算器 - 计算TikTok收益、收入和变现潜力。我们的TikTok收益计算器分析TikTok创作者收益、互动率和任何TikTok账户的预估收入。使用我们的TikTok收入计算器即时发现TikTok收益机会。",
     "whoIsUsing": "谁在使用TikTok计算器"
   },
   "Calculator": {
     "title": "TikTok收入计算器",
-    "subtitle": "计算任何TikTok账号的预估收入",
-    "placeholder": "输入TikTok用户名（例如：mrbeast）",
-    "calculate": "计算收入",
+    "subtitle": "计算任何TikTok账号的预估收入和收益",
+    "placeholder": "输入TikTok用户名（例如：mrbeast）- TikTok计算器",
+    "calculate": "计算TikTok收入",
     "calculating": "计算中...",
     "results": "分析结果",
     "noData": "未找到该用户名的数据",

@@ -18,6 +18,7 @@ import { NextIntlClientProvider } from "next-intl";
 import { getMessages, getTranslations } from "next-intl/server";
 import { ThemeProvider } from "next-themes";
 import { notFound } from "next/navigation";
+import { StructuredData } from "@/components/StructuredData";
 
 type MetadataProps = {
   params: Promise<{ locale: string }>;
@@ -85,6 +86,7 @@ export default async function LocaleLayout({
             {messages.Footer && <Footer />}
           </ThemeProvider>
         </NextIntlClientProvider>
+        <StructuredData />
         <TailwindIndicator />
         {process.env.NODE_ENV === "development" ? (
           <></>
