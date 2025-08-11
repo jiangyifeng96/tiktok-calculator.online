@@ -26,6 +26,9 @@
     "noData": "No data found for this username",
     "error": "An error occurred while fetching data",
     "tryAgain": "Try Again",
+    "earningsOverview": "Earnings Overview",
+    "accountOverview": "Account Overview",
+    "potentialEarnings": "Potential earnings",
     "metrics": {
       "username": "Username",
       "fullname": "Full Name",
@@ -34,7 +37,9 @@
       "videos": "Total Videos",
       "earnings": "Estimated Total Earnings",
       "earningsPerVideo": "Estimated Earnings per Video",
-      "engagementRate": "Engagement Rate"
+      "engagementRate": "Engagement Rate",
+      "earningsDescription": "Based on follower count and engagement",
+      "earningsPerVideoDescription": "Average earnings per post/video"
     },
     "tips": {
       "title": "How to Use TikTok Calculator",

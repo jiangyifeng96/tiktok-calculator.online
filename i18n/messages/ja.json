@@ -26,6 +26,9 @@
     "noData": "このユーザー名のデータが見つかりません",
     "error": "データ取得中にエラーが発生しました",
     "tryAgain": "再試行",
+    "earningsOverview": "収入概要",
+    "accountOverview": "アカウント概要",
+    "potentialEarnings": "ポテンシャル収入",
     "metrics": {
       "username": "ユーザー名",
       "fullname": "フルネーム",
@@ -34,7 +37,9 @@
       "videos": "動画総数",
       "earnings": "推定総収益",
       "earningsPerVideo": "動画1本あたりの推定収益",
-      "engagementRate": "エンゲージメント率"
+      "engagementRate": "エンゲージメント率",
+      "earningsDescription": "フォロワー数とエンゲージメントに基づく",
+      "earningsPerVideoDescription": "個別投稿・動画の平均収入"
     },
     "tips": {
       "title": "TikTokカルキュレーターの使用方法",

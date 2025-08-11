@@ -43,7 +43,26 @@ export function TikTokResults({ result, onReset }: TikTokResultsProps) {
   const { data } = result;
   if (!data) return null;
 
-  const metrics = [
+  // 核心收入数据 - 突出显示
+  const earningsData = [
+    {
+      key: 'earnings',
+      label: t('metrics.earnings'),
+      value: `$${formatNumber(data.earnings)}`,
+      icon: '💰',
+      description: t('metrics.earningsDescription')
+    },
+    {
+      key: 'earningsPerVideo',
+      label: t('metrics.earningsPerVideo'),
+      value: `$${formatNumber(data.estimatedEarningsPerVideo)}`,
+      icon: '📈',
+      description: t('metrics.earningsPerVideoDescription')
+    }
+  ];
+
+  // 基础数据指标
+  const basicMetrics = [
     {
       key: 'username',
       label: t('metrics.username'),
@@ -75,20 +94,6 @@ export function TikTokResults({ result, onReset }: TikTokResultsProps) {
       icon: '🎬'
     },
     {
-      key: 'earnings',
-      label: t('metrics.earnings'),
-      value: `$${formatNumber(data.earnings)}`,
-      icon: '💰',
-      highlight: true
-    },
-    {
-      key: 'earningsPerVideo',
-      label: t('metrics.earningsPerVideo'),
-      value: `$${formatNumber(data.estimatedEarningsPerVideo)}`,
-      icon: '📈',
-      highlight: true
-    },
-    {
       key: 'engagementRate',
       label: t('metrics.engagementRate'),
       value: `${data.engagementRate}%`,
@@ -113,32 +118,79 @@ export function TikTokResults({ result, onReset }: TikTokResultsProps) {
           </Button>
         </div>
 
-        {/* 指标网格 */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
-          {metrics.map((metric) => (
-            <div
-              key={metric.key}
-              className={`p-4 rounded-lg border transition-all duration-200 ${
-                metric.highlight
-                  ? 'bg-blue-50 dark:bg-blue-900/20 border-blue-200 dark:border-blue-800'
-                  : 'bg-gray-50 dark:bg-gray-700/50 border-gray-200 dark:border-gray-600'
-              }`}
-            >
-              <div className="flex items-center gap-2 mb-2">
-                <span className="text-lg">{metric.icon}</span>
-                <span className="text-sm font-medium text-gray-600 dark:text-gray-300">
-                  {metric.label}
-                </span>
+        {/* 核心收入数据 - 突出显示区域 */}
+        <div className="space-y-4">
+          <h3 className="text-lg font-semibold text-gray-800 dark:text-gray-200 flex items-center gap-2">
+            <span className="text-xl">💰</span>
+            {t('earningsOverview')}
+          </h3>
+          
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            {earningsData.map((earning) => (
+              <div
+                key={earning.key}
+                className="relative overflow-hidden bg-gradient-to-br from-emerald-50 to-blue-50 dark:from-emerald-900/30 dark:to-blue-900/30 border-2 border-emerald-200 dark:border-emerald-700 rounded-xl p-6 transition-all duration-300 hover:shadow-lg hover:scale-[1.02]"
+              >
+                {/* 背景装饰 */}
+                <div className="absolute top-0 right-0 w-20 h-20 bg-gradient-to-br from-emerald-100/50 to-blue-100/50 dark:from-emerald-800/20 dark:to-blue-800/20 rounded-full -translate-y-8 translate-x-8"></div>
+                
+                <div className="relative">
+                  <div className="flex items-center gap-3 mb-3">
+                    <div className="w-10 h-10 bg-emerald-100 dark:bg-emerald-800/50 rounded-lg flex items-center justify-center">
+                      <span className="text-xl">{earning.icon}</span>
+                    </div>
+                    <div className="flex-1">
+                      <h4 className="text-sm font-medium text-emerald-700 dark:text-emerald-300 uppercase tracking-wide">
+                        {earning.label}
+                      </h4>
+                      <p className="text-xs text-emerald-600/80 dark:text-emerald-400/80 mt-0.5">
+                        {earning.description}
+                      </p>
+                    </div>
+                  </div>
+                  
+                  <div className="text-3xl font-bold text-emerald-900 dark:text-emerald-100 mb-2">
+                    {earning.value}
+                  </div>
+                  
+                  {/* 趋势指示器 */}
+                  <div className="flex items-center gap-1 text-xs text-emerald-600 dark:text-emerald-400">
+                    <svg className="w-3 h-3" fill="currentColor" viewBox="0 0 20 20">
+                      <path fillRule="evenodd" d="M3.293 9.707a1 1 0 010-1.414l6-6a1 1 0 011.414 0l6 6a1 1 0 01-1.414 1.414L11 5.414V17a1 1 0 11-2 0V5.414L4.707 9.707a1 1 0 01-1.414 0z" clipRule="evenodd"/>
+                    </svg>
+                    <span>{t('potentialEarnings')}</span>
+                  </div>
+                </div>
               </div>
-              <div className={`text-lg font-bold ${
-                metric.highlight
-                  ? 'text-blue-900 dark:text-blue-100'
-                  : 'text-gray-900 dark:text-gray-100'
-              }`}>
-                {metric.value}
+            ))}
+          </div>
+        </div>
+
+        {/* 基础数据指标 */}
+        <div className="space-y-4">
+          <h3 className="text-lg font-semibold text-gray-800 dark:text-gray-200 flex items-center gap-2">
+            <span className="text-xl">📊</span>
+            {t('accountOverview')}
+          </h3>
+          
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+            {basicMetrics.map((metric) => (
+              <div
+                key={metric.key}
+                className="bg-gray-50 dark:bg-gray-700/50 border border-gray-200 dark:border-gray-600 rounded-lg p-4 transition-all duration-200 hover:shadow-md"
+              >
+                <div className="flex items-center gap-2 mb-2">
+                  <span className="text-lg">{metric.icon}</span>
+                  <span className="text-sm font-medium text-gray-600 dark:text-gray-300">
+                    {metric.label}
+                  </span>
+                </div>
+                <div className="text-lg font-bold text-gray-900 dark:text-gray-100">
+                  {metric.value}
+                </div>
               </div>
-            </div>
-          ))}
+            ))}
+          </div>
         </div>
 
         {/* 提示信息 */}

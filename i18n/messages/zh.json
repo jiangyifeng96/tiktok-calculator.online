@@ -26,6 +26,9 @@
     "noData": "未找到该用户名的数据",
     "error": "获取数据时发生错误",
     "tryAgain": "重试",
+    "earningsOverview": "收入概览",
+    "accountOverview": "账户概览",
+    "potentialEarnings": "潜在收入",
     "metrics": {
       "username": "用户名",
       "fullname": "全名",
@@ -34,7 +37,9 @@
       "videos": "视频总数",
       "earnings": "预估总收入",
       "earningsPerVideo": "单个视频预估收入",
-      "engagementRate": "互动率"
+      "engagementRate": "互动率",
+      "earningsDescription": "基于粉丝数量和互动情况",
+      "earningsPerVideoDescription": "平均每个视频的收入"
     },
     "tips": {
       "title": "如何使用TikTok计算器",
