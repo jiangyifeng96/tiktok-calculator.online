@@ -2,12 +2,12 @@ import { SiteConfig } from "@/types/siteConfig";
 
 export const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://tiktok-calculator.online";
 
-export const SOURCE_CODE_URL = "https://github.com/weijunext/nextjs-15-starter";
-export const PRO_VERSION = "https://nexty.dev";
+export const SOURCE_CODE_URL = "https://github.com/jiangyifeng96/tiktok-calculator";
+export const PRO_VERSION = "https://tiktok-calculator.online";
 
-const BSKY_URL = 'https://bsky.app/profile/judewei.bsky.social'
-const EMAIL_URL = 'mailto:weijunext@gmail.com'
-const GITHUB_URL = 'https://github.com/weijunext'
+const BSKY_URL = 'https://bsky.app/profile/jiangyifeng96.bsky.social'
+const EMAIL_URL = 'mailto:jiangyifeng96@gmail.com'
+const GITHUB_URL = 'https://github.com/jiangyifeng96'
 
 export const siteConfig: SiteConfig = {
   name: "TikTok Calculator",
@@ -17,11 +17,11 @@ export const siteConfig: SiteConfig = {
   url: BASE_URL,
   authors: [
     {
-      name: "weijunext",
-      url: "https://weijunext.com",
+      name: "jiangyifeng96",
+      url: "https://tiktok-calculator.online",
     }
   ],
-  creator: '@weijunext',
+  creator: '@jiangyifeng96',
   socialLinks: {
     bluesky: BSKY_URL,
     email: EMAIL_URL,
