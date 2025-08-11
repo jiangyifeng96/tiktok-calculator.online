@@ -44,7 +44,146 @@
       "note": "注意：收入为基于行业标准的估算值，实际可能有所不同。"
     }
   },
-
+  "SEO": {
+    "features": {
+      "title": "TikTok收入计算器功能",
+      "description": "TikTok收入计算器是一个在线工具，用于估算任何公开TikTok账号的预估收益。",
+      "developer": "该工具由TikCalculator开发，支持多种设备（如Android、Windows、Linux和iOS），无需下载任何软件或插件。",
+      "usage": "使用方法：用户只需输入TikTok用户名，系统会自动计算并显示该账号的预估收益。"
+    },
+    "steps": {
+      "title": "如何使用TikTok计算器",
+      "step1": "打开TikTok或TikTok应用，复制目标用户的TikTok用户名。",
+      "step2": "在浏览器中打开TikTok计算器网站。",
+      "step3": "将TikTok用户名粘贴到输入框中，点击「计算收益」。",
+      "step4": "系统会显示该用户的每篇帖子估算收益。"
+    },
+    "advantages": {
+      "title": "选择TikTok计算器的优势",
+      "easyToUse": {
+        "title": "易于使用",
+        "description": "用户只需输入用户名，系统自动完成计算。"
+      },
+      "transparency": {
+        "title": "透明度",
+        "description": "提供预估收入范围，帮助用户做出内容策略决策。"
+      },
+      "realTimeData": {
+        "title": "实时数据",
+        "description": "使用实时数据计算潜在收益，确保准确性。"
+      },
+      "improveStrategy": {
+        "title": "改进内容策略",
+        "description": "帮助用户了解哪些内容有效，哪些无效，从而优化内容创作。"
+      },
+      "timeSaving": {
+        "title": "节省时间",
+        "description": "避免手动计算复杂数据，让用户更专注于内容创作。"
+      }
+    },
+    "factors": {
+      "title": "TikTok收入影响因素",
+      "followers": {
+        "title": "粉丝数量",
+        "description": "粉丝越多，品牌合作机会越大，收入潜力越高。"
+      },
+      "engagement": {
+        "title": "互动率",
+        "description": "粉丝的点赞、评论、分享和观看次数越高，品牌越愿意合作。"
+      },
+      "monetization": {
+        "title": "变现策略",
+        "description": "包括品牌合作、推广内容、TikTok创作者基金、直播礼物和商品销售等。"
+      },
+      "brandType": {
+        "title": "品牌合作性质",
+        "description": "与知名品牌合作比与小企业合作收入更高。"
+      },
+      "geography": {
+        "title": "观众地理位置",
+        "description": "不同地区的广告收入不同，影响TikTok创作者基金分配。"
+      }
+    },
+    "estimates": {
+      "title": "收入范围预估",
+      "description": "拥有数十万粉丝的TikTok网红，每条品牌视频收入可能在200美元到20,000美元之间。",
+      "topInfluencers": "顶级TikTok网红每条视频收入可能高达数十万美元。"
+    },
+    "strategies": {
+      "title": "提升TikTok收入的策略",
+      "consistency": {
+        "title": "保持一致性",
+        "description": "定期发布内容，与观众保持互动，吸引品牌合作。"
+      },
+      "diversify": {
+        "title": "内容多样化",
+        "description": "尝试不同类型的内容，吸引更广泛的观众。"
+      },
+      "engagement": {
+        "title": "与观众互动",
+        "description": "回复评论、征求反馈，提高互动率。"
+      },
+      "trends": {
+        "title": "利用趋势",
+        "description": "紧跟TikTok趋势，增加视频观看量和粉丝数量。"
+      },
+      "collaborate": {
+        "title": "与其他创作者合作",
+        "description": "通过合作扩大粉丝基础，增加品牌合作机会。"
+      }
+    },
+    "earningsByFollowers": {
+      "title": "基于粉丝数量的收入预估",
+      "range1": "1,000 - 10,000粉丝：每篇帖子收入5 - 50美元",
+      "range2": "10,000 - 100,000粉丝：每篇帖子收入60 - 90美元",
+      "range3": "100,000 - 500,000粉丝：每篇帖子收入200 - 400美元",
+      "range4": "500,000 - 100万粉丝：每篇帖子收入400 - 600美元",
+      "range5": "100万粉丝以上：每篇帖子收入750 - 1,000美元或更多"
+    },
+    "faq": {
+      "title": "常见问题解答",
+      "howToEstimate": {
+        "question": "如何估算TikTok收入？",
+        "answer": "输入TikTok用户名，系统自动计算。"
+      },
+      "isFree": {
+        "question": "是否需要付费？",
+        "answer": "完全免费，不限制使用次数。"
+      },
+      "needPlugin": {
+        "question": "是否需要安装插件？",
+        "answer": "不需要，仅需TikTok用户名。"
+      },
+      "isSafe": {
+        "question": "是否安全？",
+        "answer": "100%安全，不存储任何数据。"
+      },
+      "canMakeMoney": {
+        "question": "TikTok是否适合赚钱？",
+        "answer": "是的，通过品牌合作、创作者基金等方式有多种赚钱机会。"
+      },
+      "howPaid": {
+        "question": "TikTok如何支付创作者？",
+        "answer": "通过创作者基金、品牌合作、直播礼物和广告收入分成。"
+      },
+      "whoCanEarn": {
+        "question": "谁可以在TikTok上赚钱？",
+        "answer": "拥有大量粉丝和高互动率的用户可以赚钱。"
+      },
+      "howOften": {
+        "question": "多久使用一次计算器？",
+        "answer": "建议在粉丝数量或互动率有明显变化时使用。"
+      },
+      "actualFactors": {
+        "question": "实际收入的影响因素？",
+        "answer": "包括内容类型、发布时间、粉丝群体特征和与观众的互动。"
+      },
+      "howToWithdraw": {
+        "question": "如何从TikCalculator提取收入？",
+        "answer": "TikCalculator不处理交易或支付，实际收入需通过TikTok提供的方式或品牌合作获得。"
+      }
+    }
+  },
   "About": {
     "title": "关于",
     "description": "关于网站"

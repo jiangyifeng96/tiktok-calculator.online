@@ -20,8 +20,6 @@ const HeaderLinks = () => {
           href={link.href}
           title={tHeader(link.name)}
           prefetch={false}
-          target={link.target || "_self"}
-          rel={link.rel || undefined}
           className="mx-2 hover:underline"
         >
           {tHeader(link.name)}
