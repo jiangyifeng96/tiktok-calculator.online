@@ -61,6 +61,10 @@ export default async function LocaleLayout({
   // Providing all messages to the client
   // side is the easiest way to get started
   const messages = await getMessages();
+  
+  // Get translated description for structured data
+  const t = await getTranslations({ locale, namespace: 'Home' });
+  const translatedDescription = t('description');
 
   return (
     <html lang={locale || DEFAULT_LOCALE} suppressHydrationWarning>
@@ -86,7 +90,7 @@ export default async function LocaleLayout({
             {messages.Footer && <Footer />}
           </ThemeProvider>
         </NextIntlClientProvider>
-        <StructuredData />
+        <StructuredData description={translatedDescription} />
         <TailwindIndicator />
         {process.env.NODE_ENV === "development" ? (
           <></>

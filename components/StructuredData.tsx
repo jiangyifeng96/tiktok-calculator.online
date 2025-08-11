@@ -1,10 +1,12 @@
-'use client';
-
 import { siteConfig } from '@/config/site';
-import { useTranslations } from 'next-intl';
 
-export function StructuredData() {
-  const t = useTranslations('Home');
+interface StructuredDataProps {
+  description?: string;
+}
+
+export function StructuredData({ description }: StructuredDataProps) {
+  // 使用传入的描述或默认描述
+  const pageDescription = description || siteConfig.description;
   
   const websiteStructuredData = {
     "@context": "https://schema.org",
@@ -16,7 +18,7 @@ export function StructuredData() {
       "TikTok Revenue Calculator"
     ],
     "url": siteConfig.url,
-    "description": t('description'),
+    "description": pageDescription,
     "potentialAction": {
       "@type": "SearchAction",
       "target": {
@@ -37,7 +39,7 @@ export function StructuredData() {
     "name": siteConfig.name,
     "url": siteConfig.url,
     "logo": `${siteConfig.url}/logo.png`,
-    "description": t('description'),
+    "description": pageDescription,
     "founder": {
       "@type": "Person",
       "name": "jiangyifeng96"
@@ -61,7 +63,7 @@ export function StructuredData() {
     "applicationCategory": "FinanceApplication",
     "operatingSystem": "Web Browser",
     "url": siteConfig.url,
-    "description": t('description'),
+    "description": pageDescription,
     "offers": {
       "@type": "Offer",
       "price": "0",
