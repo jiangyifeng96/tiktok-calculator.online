@@ -12,56 +12,56 @@
   },
   "Home": {
     "title": "TikTok Calculator",
-    "tagLine": "Free TikTok Money Calculator & Analytics Tool",
-    "description": "Free TikTok Calculator - Calculate TikTok earnings, revenue, and monetization potential. Our TikTok money calculator analyzes TikTok creator earnings, engagement rates, and estimated income for any TikTok account. Use our TikTok earning calculator to discover TikTok revenue opportunities instantly.",
+    "tagLine": "TikTok Analytics & Performance Estimation Tool",
+    "description": "TikTok Analytics Calculator - Provides statistical estimates for TikTok engagement metrics and social media performance analysis. Our TikTok analytics tool offers engagement rate calculations, follower interaction patterns, and content performance estimates for educational and research purposes.",
     "whoIsUsing": "Who is Using TikTok Calculator"
   },
   "Calculator": {
-    "title": "TikTok Money Calculator",
-    "subtitle": "Calculate estimated TikTok earnings and revenue for any TikTok account",
-    "placeholder": "Enter TikTok username (e.g., mrbeast) - TikTok Calculator",
-    "calculate": "Calculate TikTok Earnings",
+    "title": "TikTok Analytics Calculator",
+    "subtitle": "Analyze estimated engagement metrics and performance statistics for TikTok accounts",
+    "placeholder": "Enter TikTok username (e.g., mrbeast) - Analytics Calculator",
+    "calculate": "Analyze Account Performance",
     "calculating": "Calculating...",
     "results": "Analysis Results",
     "noData": "No data found for this username",
     "error": "An error occurred while fetching data",
     "tryAgain": "Try Again",
-    "earningsOverview": "Earnings Overview",
-    "accountOverview": "Account Overview",
-    "potentialEarnings": "Potential earnings",
+    "earningsOverview": "Performance Estimates",
+    "accountOverview": "Account Analytics",
+    "potentialEarnings": "Statistical estimates",
     "metrics": {
       "username": "Username",
       "fullname": "Full Name",
       "followers": "Followers",
       "hearts": "Total Hearts",
       "videos": "Total Videos",
-      "earnings": "Estimated Total Earnings",
-      "earningsPerVideo": "Estimated Earnings per Video",
+      "earnings": "Performance Score (Statistical)",
+      "earningsPerVideo": "Content Performance Index",
       "engagementRate": "Engagement Rate",
-      "earningsDescription": "Based on follower count and engagement",
-      "earningsPerVideoDescription": "Average earnings per post/video"
+      "earningsDescription": "Algorithmic estimate based on engagement patterns",
+      "earningsPerVideoDescription": "Average content performance metric"
     },
     "tips": {
-      "title": "How to Use TikTok Calculator",
+      "title": "How to Use TikTok Analytics Calculator",
       "step1": "Enter any TikTok username without the @ symbol",
-      "step2": "Click 'Calculate Earnings' to analyze the account",
-      "step3": "View detailed metrics including estimated earnings and engagement rate",
-      "note": "Note: Earnings are estimates based on industry standards and may vary."
+      "step2": "Click 'Analyze Account Performance' to view statistics",
+      "step3": "View detailed metrics including performance scores and engagement patterns",
+      "note": "Disclaimer: All data are statistical estimates for educational purposes only and should not be considered as financial advice or guaranteed outcomes."
     }
   },
   "SEO": {
     "features": {
-      "title": "TikTok Money Calculator Features",
-      "description": "TikTok Money Calculator is a free online TikTok earning calculator for estimating the potential earnings and revenue of any public TikTok account.",
-      "developer": "Developed by TikTok Calculator experts, our TikTok revenue calculator supports multiple devices (Android, Windows, Linux, iOS) without downloading any software or plugins.",
-      "usage": "Simply enter a TikTok username and our TikTok earning calculator automatically calculates and displays the estimated TikTok earnings for that account."
+      "title": "TikTok Analytics Calculator Features",
+      "description": "TikTok Analytics Calculator is a free online tool for analyzing engagement patterns and performance metrics of public TikTok accounts for research and educational purposes.",
+      "developer": "Developed using statistical analysis methods, our TikTok analytics tool supports multiple devices (Android, Windows, Linux, iOS) without downloading any software or plugins.",
+      "usage": "Simply enter a TikTok username and our analytics calculator automatically analyzes and displays statistical performance metrics for that account."
     },
     "steps": {
-      "title": "How to Use TikTok Money Calculator",
+      "title": "How to Use TikTok Analytics Calculator",
       "step1": "Open TikTok or TikTok app and copy the target user's TikTok username.",
-      "step2": "Open the TikTok Money Calculator website in your browser.",
-      "step3": "Paste the TikTok username into the TikTok Calculator input field and click 'Calculate TikTok Earnings'.",
-      "step4": "Our TikTok earning calculator will display the estimated TikTok earnings and revenue per post for that user."
+      "step2": "Open the TikTok Analytics Calculator website in your browser.",
+      "step3": "Paste the TikTok username into the analytics input field and click 'Analyze Performance'.",
+      "step4": "Our analytics calculator will display statistical performance metrics and engagement patterns for that user."
     },
     "advantages": {
       "title": "Why Choose TikTok Calculator",
@@ -70,12 +70,12 @@
         "description": "Users only need to enter a username, and the system automatically completes the calculation."
       },
       "transparency": {
-        "title": "Transparency",
-        "description": "Provides estimated income ranges to help users make content strategy decisions."
+        "title": "Statistical Analysis",
+        "description": "Provides statistical estimates based on engagement patterns for educational research purposes."
       },
-      "realTimeData": {
-        "title": "Real-time Data",
-        "description": "Uses real-time data to calculate potential earnings, ensuring accuracy."
+      "dataAnalysis": {
+        "title": "Performance Metrics",
+        "description": "Uses algorithmic analysis to estimate content performance patterns and engagement trends."
       },
       "improveStrategy": {
         "title": "Improve Content Strategy",
@@ -87,73 +87,77 @@
       }
     },
     "factors": {
-      "title": "TikTok Income Influencing Factors",
+      "title": "TikTok Performance Influencing Factors",
       "followers": {
         "title": "Follower Count",
-        "description": "More followers mean greater brand collaboration opportunities and higher income potential."
+        "description": "Larger follower base typically correlates with higher engagement potential and content reach."
       },
       "engagement": {
         "title": "Engagement Rate",
-        "description": "Higher likes, comments, shares, and views make brands more willing to collaborate."
+        "description": "Higher interactions (likes, comments, shares) indicate stronger content performance and audience connection."
       },
-      "monetization": {
-        "title": "Monetization Strategy",
-        "description": "Includes brand partnerships, sponsored content, TikTok Creator Fund, live gifts, and merchandise sales."
+      "contentStrategy": {
+        "title": "Content Strategy",
+        "description": "Consistent posting, trending topics, and quality content contribute to better performance metrics."
       },
-      "brandType": {
-        "title": "Brand Partnership Type",
-        "description": "Collaborating with well-known brands generates higher income than working with small businesses."
+      "contentType": {
+        "title": "Content Categories",
+        "description": "Different content types (educational, entertainment, lifestyle) show varying engagement patterns."
       },
-      "geography": {
-        "title": "Audience Geography",
-        "description": "Different regions have different advertising rates, affecting TikTok Creator Fund distribution."
+      "audienceDemo": {
+        "title": "Audience Demographics",
+        "description": "Different audience segments exhibit varying engagement behaviors and interaction patterns."
       }
     },
     "estimates": {
-      "title": "Income Range Estimates",
-      "description": "TikTok influencers with hundreds of thousands of followers can earn between $200 to $20,000 per branded video.",
-      "topInfluencers": "Top TikTok influencers can earn hundreds of thousands of dollars per video."
+      "title": "Performance Score Reference",
+      "description": "Statistical analysis shows that accounts with high engagement typically demonstrate stronger content performance patterns.",
+      "topPerformers": "Top-performing accounts often show consistent engagement metrics across their content portfolio."
     },
     "strategies": {
-      "title": "Strategies to Boost TikTok Income",
+      "title": "Strategies to Improve TikTok Performance",
       "consistency": {
         "title": "Maintain Consistency",
-        "description": "Regularly post content and engage with audience to attract brand partnerships."
+        "description": "Regularly post content and engage with audience to improve performance metrics."
       },
       "diversify": {
         "title": "Diversify Content",
-        "description": "Try different types of content to attract a broader audience."
+        "description": "Try different types of content to attract a broader audience and improve engagement patterns."
       },
       "engagement": {
         "title": "Engage with Audience",
-        "description": "Reply to comments and seek feedback to improve engagement rates."
+        "description": "Reply to comments and seek feedback to improve engagement rates and community building."
       },
       "trends": {
         "title": "Follow Trends",
-        "description": "Stay on top of TikTok trends to increase video views and followers."
+        "description": "Stay on top of TikTok trends to increase video views and follower growth."
       },
       "collaborate": {
         "title": "Collaborate with Creators",
-        "description": "Expand your follower base through collaborations and increase brand partnership opportunities."
+        "description": "Expand your follower base through collaborations and cross-promotion strategies."
       }
     },
-    "earningsByFollowers": {
-      "title": "Earnings Based on Follower Count",
-      "range1": "1,000 - 10,000 followers: $5 - $50 per post",
-      "range2": "10,000 - 100,000 followers: $60 - $90 per post",
-      "range3": "100,000 - 500,000 followers: $200 - $400 per post",
-      "range4": "500,000 - 1 million followers: $400 - $600 per post",
-      "range5": "1 million+ followers: $750 - $1,000+ per post"
+    "performanceByFollowers": {
+      "title": "Performance Patterns by Follower Count",
+      "range1": "1,000 - 10,000 followers: Emerging creator level engagement",
+      "range2": "10,000 - 100,000 followers: Growing creator engagement patterns",
+      "range3": "100,000 - 500,000 followers: Established creator performance metrics",
+      "range4": "500,000 - 1 million followers: High-tier creator engagement levels",
+      "range5": "1 million+ followers: Top-tier creator performance indicators"
     },
     "faq": {
       "title": "Frequently Asked Questions",
-      "howToEstimate": {
-        "question": "How to estimate TikTok income with TikTok Calculator?",
-        "answer": "Enter a TikTok username in our TikTok Money Calculator and the TikTok earning calculator system automatically calculates TikTok earnings and revenue."
+      "howToAnalyze": {
+        "question": "How to analyze TikTok performance with TikTok Analytics Calculator?",
+        "answer": "Enter a TikTok username in our analytics calculator and the system automatically analyzes engagement patterns and performance metrics for educational purposes."
       },
       "isFree": {
         "question": "Is it free to use?",
-        "answer": "Completely free with unlimited usage."
+        "answer": "Completely free with unlimited usage for educational and research purposes."
+      },
+      "dataAccuracy": {
+        "question": "How accurate are the performance estimates?",
+        "answer": "All estimates are statistical approximations based on algorithmic analysis and should be used for educational purposes only. Results do not guarantee actual earnings or performance outcomes."
       },
       "needPlugin": {
         "question": "Do I need to install plugins?",

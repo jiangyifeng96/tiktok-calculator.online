@@ -12,46 +12,46 @@
   },
   "Home": {
     "title": "TikTok计算器",
-    "tagLine": "免费TikTok收入计算器和分析工具",
-    "description": "免费TikTok计算器 - 计算TikTok收益、收入和变现潜力。我们的TikTok收益计算器分析TikTok创作者收益、互动率和任何TikTok账户的预估收入。使用我们的TikTok收入计算器即时发现TikTok收益机会。",
+    "tagLine": "TikTok数据分析与性能评估工具",
+    "description": "TikTok数据分析计算器 - 提供TikTok账户的互动指标和社交媒体表现分析。我们的TikTok分析工具提供互动率计算、粉丝互动模式和内容表现评估，仅用于教育和研究目的。",
     "whoIsUsing": "谁在使用TikTok计算器"
   },
   "Calculator": {
-    "title": "TikTok收入计算器",
-    "subtitle": "计算任何TikTok账号的预估收入和收益",
-    "placeholder": "输入TikTok用户名（例如：mrbeast）- TikTok计算器",
-    "calculate": "计算TikTok收入",
+    "title": "TikTok数据分析器",
+    "subtitle": "分析TikTok账号的互动指标和表现统计",
+    "placeholder": "输入TikTok用户名（例如：mrbeast）- 数据分析器",
+    "calculate": "分析账户表现",
     "calculating": "计算中...",
     "results": "分析结果",
     "noData": "未找到该用户名的数据",
     "error": "获取数据时发生错误",
     "tryAgain": "重试",
-    "earningsOverview": "收入概览",
-    "accountOverview": "账户概览",
-    "potentialEarnings": "潜在收入",
+    "earningsOverview": "表现评估",
+    "accountOverview": "账户分析",
+    "potentialEarnings": "统计估算",
     "metrics": {
       "username": "用户名",
       "fullname": "全名",
       "followers": "粉丝数",
       "hearts": "总点赞数",
       "videos": "视频总数",
-      "earnings": "预估总收入",
-      "earningsPerVideo": "单个视频预估收入",
+      "earnings": "表现评分（统计）",
+      "earningsPerVideo": "内容表现指数",
       "engagementRate": "互动率",
-      "earningsDescription": "基于粉丝数量和互动情况",
-      "earningsPerVideoDescription": "平均每个视频的收入"
+      "earningsDescription": "基于互动模式的算法估算",
+      "earningsPerVideoDescription": "平均内容表现指标"
     },
     "tips": {
-      "title": "如何使用TikTok计算器",
+      "title": "如何使用TikTok数据分析器",
       "step1": "输入任何TikTok用户名，无需@符号",
-      "step2": "点击「计算收入」来分析该账号",
-      "step3": "查看详细指标，包括预估收入和互动率",
-      "note": "注意：收入为基于行业标准的估算值，实际可能有所不同。"
+      "step2": "点击「分析账户表现」来查看统计数据",
+      "step3": "查看详细指标，包括表现评分和互动模式",
+      "note": "免责声明：所有数据均为统计估算，仅用于教育目的，不应视为财务建议或保证结果。"
     }
   },
   "SEO": {
     "features": {
-      "title": "TikTok收入计算器功能",
+      "title": "TikTok数据分析器功能",
       "description": "TikTok收入计算器是一个在线工具，用于估算任何公开TikTok账号的预估收益。",
       "developer": "该工具由TikCalculator开发，支持多种设备（如Android、Windows、Linux和iOS），无需下载任何软件或插件。",
       "usage": "使用方法：用户只需输入TikTok用户名，系统会自动计算并显示该账号的预估收益。"

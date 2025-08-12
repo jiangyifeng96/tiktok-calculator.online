@@ -11,9 +11,9 @@ const GITHUB_URL = 'https://github.com/jiangyifeng96'
 
 export const siteConfig: SiteConfig = {
   name: "TikTok Calculator",
-  tagLine: 'Free TikTok Money Calculator & Analytics Tool',
+  tagLine: 'TikTok Analytics & Performance Estimation Tool',
   description:
-    "Free TikTok Calculator - Calculate TikTok earnings, revenue, and monetization potential. Our TikTok money calculator analyzes TikTok creator earnings, engagement rates, and estimated income for any TikTok account. Use our TikTok earning calculator to discover TikTok revenue opportunities instantly.",
+    "Free TikTok Analytics Calculator - Estimate potential TikTok engagement metrics and social media performance. Our TikTok analytics tool provides statistical estimates for engagement rates, follower growth patterns, and content performance metrics for educational and research purposes only.",
   url: BASE_URL,
   authors: [
     {
