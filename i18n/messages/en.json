@@ -49,6 +49,22 @@
       "note": "Disclaimer: All data are statistical estimates for educational purposes only and should not be considered as financial advice or guaranteed outcomes."
     }
   },
+  "Blogs": {
+    "title": "Blog",
+    "description": "TikTok Calculator Blog - Latest insights and tips for social media analytics"
+  },
+  "About": {
+    "title": "About",
+    "description": "About TikTok Calculator - Free TikTok Analytics & Performance Estimation Tool"
+  },
+  "PrivacyPolicy": {
+    "title": "Privacy Policy",
+    "description": "Privacy Policy - How we protect your data and privacy"
+  },
+  "TermsOfService": {
+    "title": "Terms of Service",
+    "description": "Terms of Service - Usage terms and conditions"
+  },
   "SEO": {
     "features": {
       "title": "TikTok Analytics Calculator Features",
@@ -73,7 +89,7 @@
         "title": "Statistical Analysis",
         "description": "Provides statistical estimates based on engagement patterns for educational research purposes."
       },
-      "dataAnalysis": {
+      "realTimeData": {
         "title": "Performance Metrics",
         "description": "Uses algorithmic analysis to estimate content performance patterns and engagement trends."
       },
@@ -96,15 +112,15 @@
         "title": "Engagement Rate",
         "description": "Higher interactions (likes, comments, shares) indicate stronger content performance and audience connection."
       },
-      "contentStrategy": {
+      "monetization": {
         "title": "Content Strategy",
         "description": "Consistent posting, trending topics, and quality content contribute to better performance metrics."
       },
-      "contentType": {
+      "brandType": {
         "title": "Content Categories",
         "description": "Different content types (educational, entertainment, lifestyle) show varying engagement patterns."
       },
-      "audienceDemo": {
+      "geography": {
         "title": "Audience Demographics",
         "description": "Different audience segments exhibit varying engagement behaviors and interaction patterns."
       }
@@ -112,7 +128,7 @@
     "estimates": {
       "title": "Performance Score Reference",
       "description": "Statistical analysis shows that accounts with high engagement typically demonstrate stronger content performance patterns.",
-      "topPerformers": "Top-performing accounts often show consistent engagement metrics across their content portfolio."
+      "topInfluencers": "Top-performing accounts often show consistent engagement metrics across their content portfolio."
     },
     "strategies": {
       "title": "Strategies to Improve TikTok Performance",
@@ -137,7 +153,7 @@
         "description": "Expand your follower base through collaborations and cross-promotion strategies."
       }
     },
-    "performanceByFollowers": {
+    "earningsByFollowers": {
       "title": "Performance Patterns by Follower Count",
       "range1": "1,000 - 10,000 followers: Emerging creator level engagement",
       "range2": "10,000 - 100,000 followers: Growing creator engagement patterns",

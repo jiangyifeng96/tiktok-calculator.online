@@ -1,36 +1,7 @@
-import MDXComponents from "@/components/mdx/MDXComponents";
 import { Locale, LOCALES } from "@/i18n/routing";
 import { constructMetadata } from "@/lib/metadata";
-import fs from "fs/promises";
 import { Metadata } from "next";
 import { getTranslations } from "next-intl/server";
-import { MDXRemote } from "next-mdx-remote-client/rsc";
-import path from "path";
-import remarkGfm from "remark-gfm";
-
-const options = {
-  parseFrontmatter: true,
-  mdxOptions: {
-    remarkPlugins: [remarkGfm],
-    rehypePlugins: [],
-  },
-};
-
-async function getMDXContent(locale: string) {
-  const filePath = path.join(
-    process.cwd(),
-    "content",
-    "about",
-    `${locale}.mdx`
-  );
-  try {
-    const content = await fs.readFile(filePath, "utf-8");
-    return content;
-  } catch (error) {
-    console.error(`Error reading MDX file: ${error}`);
-    return "";
-  }
-}
 
 type Params = Promise<{
   locale: string;
@@ -58,15 +29,58 @@ export async function generateMetadata({
 
 export default async function AboutPage({ params }: { params: Params }) {
   const { locale } = await params;
-  const content = await getMDXContent(locale);
+  const t = await getTranslations({ locale, namespace: "About" });
 
   return (
     <article className="w-full md:w-3/5 px-2 md:px-12">
-      <MDXRemote
-        source={content}
-        components={MDXComponents}
-        options={options}
-      />
+      <div className="prose max-w-none">
+        <h1>{t("title")}</h1>
+        <p className="text-muted-foreground">
+          {t("description")}
+        </p>
+        
+        <h2>✨ Key Features</h2>
+        <ul>
+          <li>📊 Performance Analytics: Analyze engagement patterns and account performance metrics</li>
+          <li>🚀 Instant Results: Get detailed statistical estimates in seconds</li>
+          <li>🌐 Multilingual Support: Available in English, Chinese, and Japanese</li>
+          <li>📱 Mobile Friendly: Fully responsive design for all devices</li>
+          <li>🔒 Privacy Focused: No account login required, anonymous analysis</li>
+          <li>💯 100% Free: Complete access to all features for educational purposes</li>
+        </ul>
+
+        <h2>🎯 Who Can Use TikTok Calculator</h2>
+        
+        <h3>Content Creators</h3>
+        <ul>
+          <li>Analyze account performance patterns</li>
+          <li>Track engagement metrics</li>
+          <li>Understand content effectiveness</li>
+        </ul>
+
+        <h3>Researchers & Students</h3>
+        <ul>
+          <li>Study social media engagement trends</li>
+          <li>Analyze content performance patterns</li>
+          <li>Research TikTok ecosystem dynamics</li>
+        </ul>
+
+        <h3>Marketing Professionals</h3>
+        <ul>
+          <li>Evaluate content performance</li>
+          <li>Analyze engagement patterns</li>
+          <li>Research market trends</li>
+        </ul>
+
+        <h2>⚠️ Important Disclaimer</h2>
+        <ul>
+          <li>All estimates are statistical approximations for educational purposes only</li>
+          <li>Should not be considered as financial advice or guaranteed outcomes</li>
+          <li>Actual performance varies based on many factors</li>
+          <li>Tool is for research and educational use only</li>
+          <li>We do not guarantee accuracy of third-party data sources</li>
+        </ul>
+      </div>
     </article>
   );
 }

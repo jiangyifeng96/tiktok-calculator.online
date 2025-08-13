@@ -49,6 +49,22 @@
       "note": "免责声明：所有数据均为统计估算，仅用于教育目的，不应视为财务建议或保证结果。"
     }
   },
+  "Blogs": {
+    "title": "博客",
+    "description": "TikTok计算器博客 - 社交媒体分析的最新见解和技巧"
+  },
+  "About": {
+    "title": "关于",
+    "description": "关于TikTok计算器 - 免费TikTok数据分析与性能评估工具"
+  },
+  "PrivacyPolicy": {
+    "title": "隐私政策",
+    "description": "隐私政策 - 我们如何保护您的数据和隐私"
+  },
+  "TermsOfService": {
+    "title": "服务条款",
+    "description": "服务条款 - 使用条款和条件"
+  },
   "SEO": {
     "features": {
       "title": "TikTok数据分析器功能",

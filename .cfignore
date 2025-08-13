@@ -1,0 +1,9 @@
+# Cloudflare Pages 忽略文件
+# 暂时忽略需要文件系统操作的路由
+
+app/[locale]/blogs/
+app/[locale]/about/
+app/[locale]/privacy-policy/
+app/[locale]/terms-of-service/
+lib/getBlogs.ts
+content/

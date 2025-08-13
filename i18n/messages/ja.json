@@ -49,6 +49,22 @@
       "note": "注意：収益は業界標準に基づく推定値であり、実際とは異なる場合があります。"
     }
   },
+  "Blogs": {
+    "title": "ブログ",
+    "description": "TikTokカルキュレーターブログ - ソーシャルメディア分析の最新洞察とヒント"
+  },
+  "About": {
+    "title": "について",
+    "description": "TikTokカルキュレーターについて - 無料TikTokデータ分析・パフォーマンス評価ツール"
+  },
+  "PrivacyPolicy": {
+    "title": "プライバシーポリシー",
+    "description": "プライバシーポリシー - データとプライバシーの保護について"
+  },
+  "TermsOfService": {
+    "title": "利用規約",
+    "description": "利用規約 - 使用条件と条項"
+  },
   "SEO": {
     "features": {
       "title": "TikTokカルキュレーター機能",

@@ -1,5 +1,8 @@
 import { NextRequest, NextResponse } from 'next/server';
 
+// Cloudflare Pages 需要Edge Runtime
+export const runtime = 'edge';
+
 export interface TikTokApiResponse {
   status: boolean;
   user_id?: string;
